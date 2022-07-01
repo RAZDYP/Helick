@@ -1,0 +1,79 @@
+/* -------NAVBAR(HEADER)------- */
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  @media screen and (min-width: 601px) {
+    .navbaar {
+      min-height: 20vh;
+      width: 85vw;
+      padding: 12px 20px 12px 20px;
+      background-color: #fff;
+      z-index: 2;
+      }
+  
+    .nav2con {
+      display: none;
+    }
+  
+    .f5 {
+      color: #000;
+      font-size: 8px;
+      font-weight: 400;
+    }
+  
+    .name {
+      font-size: 30px;
+      letter-spacing: -1px;
+      color: blue;
+  
+      padding-left: 30px;
+      font-weight: 600;
+    }
+  
+    .logo2 {
+      font-size: 11px;
+  
+      color: #000;
+      padding-left: 30px;
+      margin-top: -30px;
+      font-weight: 500;
+    }
+  
+    .logo {
+      padding-left: 30px;
+    }
+    br {
+      line-height: 0.2;
+    }
+  
+    .navlnk {
+      color: #000;
+      font-size: 14px;
+      font-weight: 500;
+      padding: 0 20px 0 20px;
+    }
+  
+    .navlnk1 {
+      color: #0066ff;
+      font-size: 12px;
+      font-weight: 500;
+      padding: 0 6px 0 6px;
+    }
+  
+    .navlnk:hover {
+      color: #000;
+      border-bottom: 3px solid #0066ff;
+      font-weight: 500;
+      transition: 0.1s ease-in-out;
+    }
+  
+    .navlnk1:hover {
+      color: #0040a0;
+      border-bottom: 3px solid #0066ff;
+      transition: 0.1s ease-in-out;
+    }
+  }
