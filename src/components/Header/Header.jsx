@@ -19,6 +19,7 @@ export default function Header() {
                         <Link to="/partnership" ><span className="navlnk">Partnership</span></Link>
                         <Link to="/about" ><span className="navlnk">About Us </span></Link>
                         <Link to="/contact" ><span className="navlnk">Contact Us </span></Link>
+                        <Link to="/demo"><span className="demo">Request A Demo </span></Link>
                     </Nav>
                 </Navbar>
             </span>

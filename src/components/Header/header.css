@@ -56,12 +56,9 @@ header{
       font-weight: 500;
       padding: 0 20px 0 20px;
     }
-  
-    .navlnk1 {
-      color: #0066ff;
-      font-size: 12px;
-      font-weight: 500;
-      padding: 0 6px 0 6px;
+
+    .naav a {
+      text-decoration: none;
     }
   
     .navlnk:hover {
@@ -70,10 +67,19 @@ header{
       font-weight: 500;
       transition: 0.1s ease-in-out;
     }
-  
-    .navlnk1:hover {
-      color: #0040a0;
-      border-bottom: 3px solid #0066ff;
-      transition: 0.1s ease-in-out;
+
+    .demo {
+      border: #000 solid 3px;
+      border-radius: 20px;
+      color: #000;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 4px 8px 4px 8px;
+    }
+
+    .demo:hover {
+      background-color: black;
+      color: #fff;
+      transition: 0.3s ease-in-out;
     }
   }
