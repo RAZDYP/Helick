@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Nav, Dropdown, Container, NavDropdown } from 'react-bootstrap'
 import { Link, Redirect, useHistory } from 'react-router-dom'
-import logo from "../helick-logo2.png"
+import logo from "../helick-logo.png"
 import "./header.css"
 
 export default function Header() {
