@@ -1,85 +1,74 @@
 /* -------NAVBAR(HEADER)------- */
-header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  @media screen and (min-width: 601px) {
-    .navbaar {
-      min-height: 20vh;
-      width: 85vw;
-      padding: 12px 20px 12px 20px;
-      background-color: #fff;
-      z-index: 2;
-      }
-  
-    .nav2con {
-      display: none;
-    }
-  
-    .f5 {
-      color: #000;
-      font-size: 8px;
-      font-weight: 400;
-    }
-  
-    .name {
-      font-size: 30px;
-      letter-spacing: -1px;
-      color: blue;
-  
-      padding-left: 30px;
-      font-weight: 600;
-    }
-  
-    .logo2 {
-      font-size: 11px;
-  
-      color: #000;
-      padding-left: 30px;
-      margin-top: -30px;
-      font-weight: 500;
-    }
-  
-    .logo {
-      padding-left: 30px;
-    }
-    br {
-      line-height: 0.2;
-    }
-  
-    .navlnk {
-      color: #000;
-      font-size: 14px;
-      font-weight: 500;
-      padding: 0 20px 0 20px;
-    }
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
 
-    .naav a {
-      text-decoration: none;
-    }
-  
-    .navlnk:hover {
-      color: #000;
-      border-bottom: 3px solid #0066ff;
-      font-weight: 500;
-      transition: 0.1s ease-in-out;
-    }
+.navbaar {
+  min-height: 20vh;
+  padding: 12px 20px 12px 0;
+  background-color: #fff;
+  z-index: 2;
+}
 
-    .demo {
-      border: #000 solid 3px;
-      border-radius: 20px;
-      color: #000;
-      font-size: 12px;
-      font-weight: 700;
-      padding: 4px 8px 4px 8px;
-    }
+.f5 {
+  color: #000;
+  font-size: 8px;
+  font-weight: 400;
+}
 
-    .demo:hover {
-      background-color: black;
-      color: #fff;
-      transition: 0.3s ease-in-out;
-    }
-  }
+.name {
+  font-size: 30px;
+  letter-spacing: -1px;
+  color: blue;
+
+  padding-left: 30px;
+  font-weight: 600;
+}
+
+.logo {
+  width: 212px;
+  height: 68px;
+  left: 77px;
+  top: 43px;
+
+}
+
+br {
+  line-height: 0.2;
+}
+
+.navlnk {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 20px 0 20px;
+}
+
+.naav a {
+  text-decoration: none;
+}
+
+.navlnk:hover {
+  color: #000;
+  border-bottom: 3px solid #0066ff;
+  font-weight: 500;
+  transition: 0.1s ease-in-out;
+}
+
+.demo {
+  border: #000 solid 3px;
+  border-radius: 20px;
+  color: #000;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 8px 4px 8px;
+}
+
+.demo:hover {
+  background-color: black;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
