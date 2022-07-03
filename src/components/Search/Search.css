@@ -1,0 +1,57 @@
+.Search {
+    display: flex;
+   justify-content: space-between;
+    width: 45%;
+    align-items: center;
+    margin: auto;
+    padding-top: 10px;
+    background-color: rgb(16, 234, 198);
+    border-radius: 55px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+    /* background-image:url('https://images.pexels.com/photos/7130503/pexels-photo-7130503.jpeg?auto=compress&cs=tinysrgb&w=600'); */
+    
+}
+
+.search_icon > img{
+    width: 20px;
+    height: 20px;
+}
+
+.location{
+    margin-left: 3px;
+    
+}
+.location >h6 {
+    margin-top: 0px;
+    margin-bottom: 2px;
+    font-weight: 400;
+}
+.brand >h6{
+    margin-top: 0px;
+    margin-bottom: 2px;
+    font-weight: 400; 
+}
+
+.price >h6{
+    margin-top: 0px;
+    margin-bottom: 2px;
+    font-weight: 400; 
+}
+
+.search_icon{
+    margin-right: 3px;
+}
+.req_btn >button{
+    background:transparent;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    
+}
+ 
+    
+    
