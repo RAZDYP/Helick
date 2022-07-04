@@ -1,0 +1,21 @@
+/* For Large Screens */
+@media screen and (min-width: 601px) {
+    .illustration-frame {
+        position: relative;
+        padding-right: 20px;
+        max-width: 640px;
+        height: 560px;  
+        left: 10%;
+    }
+}
+
+/* For Small Screens */
+@media screen and (max-width: 600px) {
+    .illustration-frame {
+        position: relative;
+        max-width: 640px;
+        height: 560px;
+        padding-right: 60px;
+        left: 10%;
+    }
+}
