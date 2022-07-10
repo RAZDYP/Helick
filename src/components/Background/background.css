@@ -20,6 +20,14 @@ body {
         background: #FFFFFF;
     }
 
+    .background-watermark {
+        position: absolute;
+        width: 634px;
+        height: 524px;
+        left: 0px;
+        top: 137px;
+    }
+
     .rectangle-1 {
         left: 907px;
         top: 233px;
@@ -142,7 +150,7 @@ body {
     }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 992px) {
     .background-vector {
         display: none;
     }
