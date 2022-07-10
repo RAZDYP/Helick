@@ -66,7 +66,7 @@ header{
 
 /* ------------NAVBAR(small screens)----------- */
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 992px) {
   .nav1con {
     display: none;
   }
