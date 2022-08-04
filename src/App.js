@@ -8,16 +8,18 @@ import {
 } from "react-router-dom";
 
 import Home from './sections/Home/Home';
+import Contact from './sections/Contact/Contact';
 
 function App() {
   return (
-      <Router>
-        <Header />
-        <Background />
-        <Switch>
-          <Route path="/" component={Home} />
-        </Switch>
-      </Router>
+    <Router>
+      <Header />
+      <Background />
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/contact" component={Contact} />
+      </Switch>
+    </Router>
   );
 }
 
