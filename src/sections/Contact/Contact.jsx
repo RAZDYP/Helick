@@ -6,6 +6,8 @@ import logo from "../../images/logo.png"
 import email from "../../images/email.png"
 import address from "../../images/address.png"
 import phone from "../../images/phone.png"
+import whatsapp from "../../images/whatsapp.png"
+
 
 
 
@@ -72,6 +74,15 @@ export default function Contact() {
                             </div>
 
                         </div>
+
+                    </div>
+                    <div className="whatsapp">
+                        <h6>To chat with us,</h6>
+                        <h6>Click on the icon below.</h6>
+                        <p>
+                            <a href="https://wa.me/917002043811"><img src={whatsapp} alt="logo" width="50" height="50" /></a>
+                        </p>
+
 
                     </div>
                 </div>
