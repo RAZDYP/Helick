@@ -75,9 +75,23 @@
 .login-description p {
     position: relative;
     left: 25px;
-    width: 50%;
+   width: 50%;
 }
 
+.whatsapp{
+    /* padding-right: 40px; */
+    padding-top: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.whatsapp p {
+    /* padding-right: 20px; */
+    margin-right: 50px;
+}
 .login-info {
     display: flex;
     flex-direction: column;
