@@ -22,8 +22,8 @@ body {
 
     .background-watermark {
         position: absolute;
-        width: 634px;
-        height: 524px;
+        max-width: 634px;
+        max-height: 524px;
         left: 0px;
         top: 137px;
     }
@@ -153,5 +153,12 @@ body {
 @media screen and (max-width: 992px) {
     .background-vector {
         display: none;
+    }
+
+    .background-watermark {
+        position: absolute;
+        max-width: 80%;
+        left: 0px;
+        top:50%;
     }
 }
