@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(201.69deg, rgba(82, 0, 255, 0.24) 14.23%, rgba(235, 0, 255, 0) 100%) no-repeat fixed;
+    background: linear-gradient(201.69deg, rgba(82, 0, 255, 0.5) 14.23%, rgba(235, 0, 255, 0) 100%) no-repeat fixed;
 }
 
 @media screen and (min-width: 992px) {
