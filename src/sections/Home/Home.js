@@ -8,7 +8,7 @@ import "./home.css"
 
 export default function Home() {
     return (
-        <Container fluid>
+        <Container className="home-container">
             <Row>
                 <Col lg={true}> <Info /></Col>
                 <Col lg={true}> <Illustration /></Col>s
