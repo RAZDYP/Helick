@@ -5,6 +5,7 @@ header {
   align-items: center;
   justify-content: space-between;
   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
 }
 
 @media screen and (min-width: 992px) {

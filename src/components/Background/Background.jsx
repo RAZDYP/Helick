@@ -8,7 +8,7 @@ export default function Background() {
     return (
         <div className="background">
             <img className="background-vector" src={vector} alt=""/>
-            {/* <img className="background-watermark" src={watermark} alt=""/> */}
+            <img className="background-watermark" src={watermark} alt=""/>
             {/* <img className="background-rectangle rectangle-1" src={rectangle} alt=""/>
             <img className="background-rectangle rectangle-2" src={rectangle} alt=""/>
             <img className="background-rectangle rectangle-3" src={rectangle} alt=""/>
