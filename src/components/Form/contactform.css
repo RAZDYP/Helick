@@ -37,7 +37,7 @@
 
 .form-contact--input input {
     background: rgba(255, 255, 255, 0.3);
-    color: whitesmoke;
+    color: black;
     height: 50px;
     border: none;
     border-radius: 10px;
@@ -50,7 +50,7 @@
 
 .form-contact--input textarea {
     background: rgba(255, 255, 255, 0.3);
-    color: #fff;
+    color: #000;
     height: auto;
     border: none;
     border-radius: 10px;

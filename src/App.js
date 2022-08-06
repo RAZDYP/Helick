@@ -9,6 +9,7 @@ import {
 
 import Home from './sections/Home/Home';
 import Contact from './sections/Contact/Contact';
+import About from './sections/About/About';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/contact" component={Contact} />
+        <Route path="/about" component={About} />
       </Switch>
     </Router>
   );
