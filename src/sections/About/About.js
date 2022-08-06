@@ -5,6 +5,8 @@ import { Row, Col, Container } from "react-bootstrap"
 import {ReactComponent as Monitor} from "../../images/monitor.svg";
 
 import AboutCard from "../../components/Cards/AboutCard";
+import SlideInfo from "../../components/Info/SlideInfo";
+import SlideCard from "../../components/Cards/SlideCard";
 
 export default function About() {
     return (
@@ -14,9 +16,13 @@ export default function About() {
             </Row>
             <Row>
                 <Col lg={true}><AboutCard /></Col>
-                <Col lg={true} style={{marginTop: "50px"}}><AboutCard /></Col>
+                <Col lg={true} className="card-about"><AboutCard /></Col>
                 <Col lg={true}><AboutCard /></Col>
-                <Col lg={true} style={{marginTop: "50px"}}><AboutCard /></Col>
+                <Col lg={true} className="card-about"><AboutCard /></Col>
+            </Row>
+            <Row>
+                <Col lg={true}><SlideInfo /></Col>
+                <Col lg={true}><SlideCard /></Col>
             </Row>
         </Container>
     )

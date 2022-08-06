@@ -1,0 +1,41 @@
+.slidecard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    row-gap: 20px;
+    /* background: rgba(255, 255, 255, 0.4); */
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.1) 100%);
+    /* background-color: aliceblue; */
+    border-radius: 20px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.slidecard-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slidecard-image--profile {
+    border-radius: 50%;
+    width: 20%;
+}
+
+.slidecard-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    row-gap: 10px;
+}
+
+.slidecard-info--description {
+    width: 60%;
+    text-align: center;
+}
