@@ -45,7 +45,7 @@ export default function ContactInfo() {
                 <h6>To chat with us,</h6>
                 <h6>Click on the icon below.</h6>
                 <p>
-                    <a href="https://wa.me/917002043811"><img src={whatsapp} alt="logo" width="50" height="50" /></a>
+                    <a href="https://wa.me/917002043811" rel="noreferrer" target="_blank"><img src={whatsapp} alt="logo" width="50" height="50" /></a>
                 </p>
 
 
