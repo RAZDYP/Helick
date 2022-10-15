@@ -17,7 +17,7 @@ export default function Header() {
                         <Link to="/" ><span className="navlnk">Products</span></Link>
                         <Link to="/" ><span className="navlnk">Partnership</span></Link>
                         <Link to="/contact" ><span className="navlnk">Contact Us </span></Link>
-                        <Link to="/" ><span className="navlnk">About Us </span></Link>
+                        <Link to="/about" ><span className="navlnk">About Us </span></Link>
                         <Link to="/" ><span className="navlnk demo">Request A Demo </span></Link>
                     </Nav>
                 </Navbar>
@@ -38,8 +38,8 @@ export default function Header() {
                                     <Dropdown.Item href="/" >Home</Dropdown.Item>
                                     <Dropdown.Item href="/" >Products</Dropdown.Item>
                                     <Dropdown.Item href="/" >Partnership</Dropdown.Item>
-                                    <Dropdown.Item href="/" >Contact Us </Dropdown.Item>
-                                    <Dropdown.Item href="/" >About Us </Dropdown.Item>
+                                    <Dropdown.Item href="/contact" >Contact Us </Dropdown.Item>
+                                    <Dropdown.Item href="/about" >About Us </Dropdown.Item>
                                     <Dropdown.Item href="/" >Request A Demo </Dropdown.Item>
                                 </Dropdown.Menu>
                             </Dropdown>
