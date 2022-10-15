@@ -11,7 +11,7 @@ export default function Home() {
         <Container className="home-container">
             <Row>
                 <Col lg={true}> <Info /></Col>
-                <Col lg={true}> <Illustration /></Col>s
+                <Col lg={true}> <Illustration /></Col>
             </Row>
             <Row>
                 <Col md={12}> <Search /> </Col>
