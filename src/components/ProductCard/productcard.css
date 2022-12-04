@@ -1,0 +1,21 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.products-card {
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 20px;
+}
+
+.products-card--image {
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 20px;
+}
